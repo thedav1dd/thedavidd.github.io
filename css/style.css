@@ -1,0 +1,106 @@
+/* Header, footer */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Libre+Baskerville&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+  background-color: black;
+}
+header, footer {
+  background-color: black;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(11, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+ol.carousel-indication li.active {
+  background-color: rgba(10, 0, 0, 0.5);
+}
+ol.carousel-indication li {
+  background-color: rgb(0, 0, 0);
+}
+
+.carousel a:hover {
+  background-color: rgb(225, 225, 225, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(70%);
+}
+.carousel img {
+  width: 650px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+}
+.modal{
+  border: 1px solid red;
+  margin: 0 auto;
+  display: auto;
+}
+.modalfade {
+  border: 1px solid red;
+  margin: 0 auto;
+  display: auto;
+}
+
+#a {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-align:  center;
+}
+#b {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 100;
+  text-align:  center;
+  margin: 100px;
+}
+#c {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  margin: auto;
+}
+#d {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: auto;
+  text-align: center;
+}
+#z {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 100;
+  text-align:  center;
+}
+#f {
+  height: auto;
+}
+#gif {
+  height: 500px;
+  font-weight: 750px;
+  text-align: center;
+}
+#X {
+  font-family: 'Comfortaa', cursive;
+}
